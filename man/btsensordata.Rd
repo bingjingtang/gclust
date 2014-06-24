@@ -1,0 +1,13 @@
+\name{btsensordata}
+\alias{btsensordata}
+\docType{data}
+\title{
+}
+\description{
+}
+\usage{data(btsensordata)}
+\format{
+}
+\examples{
+}
+\keyword{datasets}
