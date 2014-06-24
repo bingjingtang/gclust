@@ -1,3 +1,4 @@
+*.swp
 .directory
 ## Core latex/pdflatex auxiliary files:
 *.aux
