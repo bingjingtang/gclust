@@ -2,9 +2,9 @@ Package: gclust
 Version: 0.0-1
 Date: 2014-06-24
 Title: Model based clustering of graphs
-Author: Nam H. Lee
+Author: Nam H. Lee, Minh Tang, Youngser Park
 Maintainer: Nam H. Lee <nhlee@jhu.edu>
-Depends: lattice, pander, ggplot2, corrplot
+Depends: lattice, Matrix, NMF, igraph, fpc, popbio, irlba, foreach
 Description:
 Tools for selecting the inner dimension of a non-negative matrix
 License: GPL (>=3)

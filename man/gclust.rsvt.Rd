@@ -1,11 +1,11 @@
-\name{gclust}
-\alias{gclust}
+\name{gclust.rsvt}
+\alias{gclust.rsvt}
 \concept{Graph Clustering}
 \title{Graph Clustering Using SVT and NMF}
 \description{Performs Clustering of Graphs using Singular Value Thresholding and Non-negative 
 Factorization.}
 \usage{
-gclust(glist,r,maxsvt=10) 
+gclust.rsvt(glist,r,maxsvt=10) 
 }
 \arguments{
 \item{glist}{List of \code{igraph} Objects}
@@ -43,7 +43,7 @@ glist <- sapply(1:R, function(x) g[Y[[x]]])
 
 
 ## quick test run
-#out = gclust(glist,6,10)
+#out = gclust.rsvt(glist,6,10)
 #length(unique(out$memb))
 #adjustedRandIndex(Y,out$memb)
 
